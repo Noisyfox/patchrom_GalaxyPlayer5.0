@@ -21,7 +21,7 @@ local-miui-modified-apps := Launcher2
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
-        SnsProvider SoundPlayer TwLauncher45 VoiceSearch MusicPlayer Divx wipereceiver
+        SnsProvider TwLauncher45 VoiceSearch MusicPlayer SoundPlayer Divx wipereceiver
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
