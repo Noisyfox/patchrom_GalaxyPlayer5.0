@@ -808,104 +808,104 @@
 
     invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
-    const-string v4, "phone"
+    #const-string v4, "phone"
 
-    invoke-virtual {p1, v4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    #invoke-virtual {p1, v4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    move-result-object v4
+    #move-result-object v4
 
-    check-cast v4, Landroid/telephony/TelephonyManager;
+    #check-cast v4, Landroid/telephony/TelephonyManager;
 
-    iput-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhone:Landroid/telephony/TelephonyManager;
+    #iput-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhone:Landroid/telephony/TelephonyManager;
 
-    const v4, 0x7f0200a0
+    #const v4, 0x7f0200a0
 
-    iput v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
+    #iput v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "phone_signal"
+    #const-string v5, "phone_signal"
 
-    iget v6, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
-
-    invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
-
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mContext:Landroid/content/Context;
-
-    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v4
-
-    const v5, 0x60a0002
-
-    invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
-
-    move-result v4
-
-    iput-boolean v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mAlwaysUseCdmaRssi:Z
-
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mContext:Landroid/content/Context;
-
-    const-string v5, "phone"
-
-    invoke-virtual {v4, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v4
-
-    check-cast v4, Landroid/telephony/TelephonyManager;
-
-    iget-object v5, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneStateListener:Landroid/telephony/PhoneStateListener;
-
-    const/16 v6, 0x1e1
-
-    invoke-virtual {v4, v5, v6}, Landroid/telephony/TelephonyManager;->listen(Landroid/telephony/PhoneStateListener;I)V
-
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
-
-    const-string v5, "privacy_mode"
-
-    const v6, 0x10805ea
+    #iget v6, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
 
     #invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mContext:Landroid/content/Context;
 
-    move-result-object v4
+    #invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    const-string v5, "privacy_mode_enabled"
+    #move-result-object v4
 
-    invoke-static {v4, v5, v7}, Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+    #const v5, 0x60a0002
 
-    move-result v4
+    #invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
 
-    if-ne v8, v4, :cond_1
+    #move-result v4
 
-    move v4, v8
+    #iput-boolean v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mAlwaysUseCdmaRssi:Z
+
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mContext:Landroid/content/Context;
+
+    #const-string v5, "phone"
+
+    #invoke-virtual {v4, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    #move-result-object v4
+
+    #check-cast v4, Landroid/telephony/TelephonyManager;
+
+    #iget-object v5, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneStateListener:Landroid/telephony/PhoneStateListener;
+
+    #const/16 v6, 0x1e1
+
+    #invoke-virtual {v4, v5, v6}, Landroid/telephony/TelephonyManager;->listen(Landroid/telephony/PhoneStateListener;I)V
+
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+
+    #const-string v5, "privacy_mode"
+
+    #const v6, 0x10805ea
+
+    #invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
+
+    #invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    #move-result-object v4
+
+    #const-string v5, "privacy_mode_enabled"
+
+    #invoke-static {v4, v5, v7}, Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    #move-result v4
+
+    #if-ne v8, v4, :cond_1
+
+    #move v4, v8
 
     :goto_0
-    iput-boolean v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPrivacyModeEnabled:Z
+    #iput-boolean v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPrivacyModeEnabled:Z
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "privacy_mode"
+    #const-string v5, "privacy_mode"
 
-    iget-boolean v6, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPrivacyModeEnabled:Z
+    #iget-boolean v6, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPrivacyModeEnabled:Z
 
     #invoke-virtual {v4, v5, v6}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "data_connection"
+    #const-string v5, "data_connection"
 
-    const v6, 0x7f02002a
+    #const v6, 0x7f02002a
 
-    invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
+    #invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "data_connection"
+    #const-string v5, "data_connection"
 
-    invoke-virtual {v4, v5, v7}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
+    #invoke-virtual {v4, v5, v7}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
 
     iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
@@ -969,19 +969,19 @@
 
     invoke-virtual {v4, v5, v7}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "cdma_eri"
+    #const-string v5, "cdma_eri"
 
-    const v6, 0x7f02008b
+    #const v6, 0x7f02008b
 
-    invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
+    #invoke-virtual {v4, v5, v6, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
-    iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v5, "cdma_eri"
+    #const-string v5, "cdma_eri"
 
-    invoke-virtual {v4, v5, v7}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
+    #invoke-virtual {v4, v5, v7}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
 
     iget-object v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
@@ -1124,9 +1124,9 @@
 
     invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    const-string v4, "android.intent.action.PRIVACY_MODE_CHANGED"
+    #const-string v4, "android.intent.action.PRIVACY_MODE_CHANGED"
 
-    invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    #invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v4, "android.media.RINGER_MODE_CHANGED"
 
@@ -1176,9 +1176,9 @@
 
     invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    const-string v4, "android.intent.action.SIM_STATE_CHANGED"
+    #const-string v4, "android.intent.action.SIM_STATE_CHANGED"
 
-    invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    #invoke-virtual {v2, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v4, "com.android.internal.telephony.cdma.intent.action.TTY_ENABLED_CHANGE"
 
@@ -1276,7 +1276,7 @@
     .parameter "x1"
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSimState(Landroid/content/Intent;)V
+    #invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSimState(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -1309,7 +1309,7 @@
     .parameter "x1"
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updatePrivacyMode(Landroid/content/Intent;)V
+    #invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updatePrivacyMode(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -1383,7 +1383,7 @@
     .parameter "x0"
 
     .prologue
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSignalStrength()V
+    #invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSignalStrength()V
 
     return-void
 .end method
@@ -3366,13 +3366,13 @@
     iput v3, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
 
     :goto_0
-    iget-object v3, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    #iget-object v3, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v4, "phone_signal"
+    #const-string v4, "phone_signal"
 
-    iget v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
+    #iget v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
 
-    invoke-virtual {v3, v6, v4, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
+    #invoke-virtual {v3, v6, v4, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
     :goto_1
     return-void
@@ -3443,7 +3443,7 @@
 
     iget v4, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mPhoneSignalIconId:I
 
-    invoke-virtual {v3, v6, v4, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
+    #invoke-virtual {v3, v6, v4, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
     goto :goto_1
 
