@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/exposure_zoom_view" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.camera.ui.VerticalSeekBar android:layout_gravity="left" android:id="@id/screen_exposure_seekbar" android:background="@drawable/seekbar_exposure_bg" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:progressDrawable="@drawable/seekbar_progress" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="-28.0px" />
+    <com.miui.camera.ui.VerticalSeekBar android:layout_gravity="right" android:id="@id/screen_zoom_seekbar" android:background="@drawable/seekbar_zoom_bg" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:progressDrawable="@drawable/seekbar_progress" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="-28.0px" />
+</FrameLayout>

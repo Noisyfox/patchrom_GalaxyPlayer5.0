@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/con_sat_shp_view" android:background="@drawable/ctl_btn_review_frame" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:text="@string/pref_camera_contrast" />
+        <com.miui.camera.ui.VerticalSeekBar android:id="@id/contrast_seekbar" android:background="@drawable/seekbar_zoom_bg" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="200.0dip" android:progressDrawable="@drawable/seekbar_progress" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="-28.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:text="@string/pref_camera_saturation" />
+        <com.miui.camera.ui.VerticalSeekBar android:id="@id/saturation_seekbar" android:background="@drawable/seekbar_zoom_bg" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="200.0dip" android:progressDrawable="@drawable/seekbar_progress" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="-28.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:text="@string/pref_camera_sharpness" />
+        <com.miui.camera.ui.VerticalSeekBar android:id="@id/sharpness_seekbar" android:background="@drawable/seekbar_zoom_bg" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="200.0dip" android:progressDrawable="@drawable/seekbar_progress" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="-28.0px" />
+    </LinearLayout>
+</LinearLayout>

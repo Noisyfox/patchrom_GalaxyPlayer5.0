@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/control_bar_shadow" android:background="@drawable/bar_shadow" android:layout_width="fill_parent" android:layout_height="9.0px" />
+    <FrameLayout android:id="@id/control_bar" android:background="@drawable/ctl_bg_85_trans" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.miui.camera.ui.ScaleRotateImageView android:gravity="center" android:layout_gravity="left|center" android:id="@id/review_icon" android:background="@drawable/ctl_review_bg" android:padding="3.0px" android:focusable="true" android:clickable="true" android:layout_width="68.0px" android:layout_height="68.0px" android:layout_marginLeft="10.0dip" android:scaleType="center" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/setting_panel_icon" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ctl_btn_menu_n" android:onClick="onClickSettingPanelIcon" />
+    </FrameLayout>
+</LinearLayout>

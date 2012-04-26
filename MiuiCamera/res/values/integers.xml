@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="snap_animation_duration">50</integer>
+    <integer name="snap_shrink_animation_duration">300</integer>
+    <integer name="review_icon_left_margin">17</integer>
+</resources>

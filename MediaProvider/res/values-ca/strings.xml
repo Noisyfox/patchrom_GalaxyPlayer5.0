@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Multim</string>
+    <string name="app_label">Media Storage</string>
+    <string name="artist_label">Artista</string>
+    <string name="media_scanning_tiker_start">"Escàner d'elements multimèdia en funcionament..."</string>
+    <string name="media_scanning_tiker_end">"S'ha completat l'escaneig d'elements multimèdia"</string>
+    <string name="media_scanning_running">"S'estan escanejant elements multimèdia..."</string>
+    <string name="media_scanning_running_definition">Escanejant tots els fitxers multimèdia de la targeta SD...</string>
+    <string name="media_scanning_system">Memòria del dispositiu</string>
+    <string name="media_scanning_internal_sd">Emmagatzematge USB</string>
+    <string name="media_scanning_external_sd">Targeta SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

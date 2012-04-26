@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>家庭</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>中国雅虎</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>住宅</item>
+        <item>设备</item>
+        <item>单位电话</item>
+        <item>单位传真</item>
+        <item>住宅传真</item>
+        <item>寻呼机</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>住宅</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>住宅</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google翻译</item>
+        <item>维基百科</item>
+        <item>词典</item>
+    </string-array>
+</resources>

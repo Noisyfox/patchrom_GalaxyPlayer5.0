@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ホーム</item>
+        <item>会社</item>
+        <item>その他</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Googleトーク</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>会社</item>
+        <item>その他</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>自宅</item>
+        <item>携帯</item>
+        <item>仕事</item>
+        <item>FAX（仕事）</item>
+        <item>FAX（自宅）</item>
+        <item>ポケベル</item>
+        <item>その他</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ホーム</item>
+        <item>会社</item>
+        <item>その他</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>Nov</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ホーム</item>
+        <item>会社</item>
+        <item>その他</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google翻訳</item>
+        <item>ウィキペディア</item>
+        <item>辞書</item>
+    </string-array>
+</resources>

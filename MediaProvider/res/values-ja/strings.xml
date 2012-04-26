@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">メディア</string>
+    <string name="app_label">メディアストレージ</string>
+    <string name="artist_label">アーティスト</string>
+    <string name="media_scanning_tiker_start">メディア​スキャン実行中...</string>
+    <string name="media_scanning_tiker_end">メディア​スキャンが​完了しました</string>
+    <string name="media_scanning_running">メディアを​スキャン中...</string>
+    <string name="media_scanning_running_definition">SD​カードの​全ての​メディアファイルを​スキャン中...</string>
+    <string name="media_scanning_system">本体​メモリー</string>
+    <string name="media_scanning_internal_sd">ユーザーメモリ（本体）</string>
+    <string name="media_scanning_external_sd">外部SDカード</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

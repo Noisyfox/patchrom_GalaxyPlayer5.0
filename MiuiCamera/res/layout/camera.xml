@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.camera.ui.CameraFrameLayout android:id="@id/camera" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.miui.camera">
+    <View android:layout_gravity="top" android:id="@id/space_holder_top" android:background="@drawable/space_holder_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.miui.camera.ui.ReferenceLine android:id="@id/reference_line" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/space_holder_bottom" android:background="@drawable/space_holder_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.miui.camera.ui.FocusRectangle android:layout_gravity="top" android:id="@id/focus_rectangle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/focus" />
+    <com.miui.camera.ui.ScreenShutterIndicator android:id="@id/screen_shutter_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/snap_anim_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/camera_snap_anim" />
+    <include android:layout_gravity="bottom|center" android:id="@id/toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" layout="@*android:layout/transient_notification" />
+</com.miui.camera.ui.CameraFrameLayout>

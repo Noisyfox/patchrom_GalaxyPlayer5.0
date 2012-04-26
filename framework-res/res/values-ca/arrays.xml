@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Inici</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Casa</item>
+        <item>Mòbil</item>
+        <item>Feina</item>
+        <item>Fax de la feina</item>
+        <item>Fax particular</item>
+        <item>Cercapersones</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Inici</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>Dg.</item>
+        <item>Dl.</item>
+        <item>Dm.</item>
+        <item>Dc.</item>
+        <item>Dj.</item>
+        <item>Dv.</item>
+        <item>Ds.</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>Gen.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Abr.</item>
+        <item>Maig</item>
+        <item>Juny</item>
+        <item>Jul.</item>
+        <item>Ago.</item>
+        <item>Set.</item>
+        <item>Oct.</item>
+        <item>Nov</item>
+        <item>Des.</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Inici</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Traductor de Google</item>
+        <item>Wikipedia</item>
+        <item>Diccionari</item>
+    </string-array>
+</resources>

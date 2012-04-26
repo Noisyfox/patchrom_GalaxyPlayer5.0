@@ -1,0 +1,7 @@
+# generated files
+.build/
+
+# working temp
+temp/
+
+# Local configuration file (sdk path, etc)

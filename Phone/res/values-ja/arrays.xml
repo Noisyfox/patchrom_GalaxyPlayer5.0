@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>ネットワークの​標準設定</item>
+        <item>番号を​非表示</item>
+        <item>番号を表示</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>標準画像</item>
+        <item>通知しない</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>グローバル</item>
+        <item>EVDO​のみ</item>
+        <item>CDMA w/o EVDO</item>
+        <item>オート​CDMA／EVDO</item>
+        <item>オート​GSM／WCDMA</item>
+        <item>WCDMA​のみ</item>
+        <item>GSM​のみ</item>
+        <item>優先​GSM／WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>フランス語</item>
+        <item>スペイン語</item>
+        <item>日本語</item>
+        <item>韓国語</item>
+        <item>中国語</item>
+        <item>ヘブライ語</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA（自動​モード）</item>
+        <item>GSM​のみ</item>
+        <item>WCDMA​のみ</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>ホーム​のみ</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>ホーム​ネットワーク​のみ</item>
+        <item>関連​ネットワーク</item>
+        <item>任意の​ネットワーク</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>標準</item>
+        <item>長押し</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.camera.ui.ShutterButton android:layout_gravity="center" android:id="@id/shutter_button" android:background="@drawable/shutter_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctl_btn_shutter_camera" android:scaleType="center" />
+</FrameLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Mrežno postavljeno</item>
+        <item>Sakriven broj</item>
+        <item>Prikaži broj</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>Zadano</item>
+        <item>Sakrij</item>
+        <item>Prikaz</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Samo EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Automatski CDMA/EVDO</item>
+        <item>Auto. GSM/WCDMA</item>
+        <item>Samo WCDMA</item>
+        <item>Samo GSM</item>
+        <item>Preferirani GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>francuski</item>
+        <item>španjolski</item>
+        <item>Japanski</item>
+        <item>Korejski</item>
+        <item>kineski</item>
+        <item>Hebrejski</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatski način)</item>
+        <item>Samo GSM</item>
+        <item>Samo WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Samo matična mreža</item>
+        <item>Automatski</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Samo matična mreža</item>
+        <item>Povezane mreže</item>
+        <item>Bilo koja mreža</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normalno</item>
+        <item>Dugačko</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

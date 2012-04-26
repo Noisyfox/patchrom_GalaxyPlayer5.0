@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/setting_frame" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/setting_view_shadow" android:background="@drawable/setting_panel_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScreenView android:id="@id/color_effect" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_panel" android:background="@drawable/setting_panel_bg_41" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.miui.camera.ui.RotateTextView android:id="@id/switch_to_camera_icon" android:text="@string/switch_to_camera" android:drawableTop="@drawable/setting_ic_camera" android:onClick="onClickSwitchToCameraIcon" style="@style/SettingPanelItem" />
+            <com.miui.camera.ui.RotateTextView android:id="@id/screen_shutter_icon" android:text="@string/screen_shutter" android:drawableTop="@drawable/setting_ic_screen_shutter" android:onClick="onClickScreenShutterIcon" style="@style/SettingPanelItem" />
+            <com.miui.camera.ui.RotateTextView android:id="@id/color_effect_icon" android:text="@string/color_effect" android:drawableTop="@drawable/setting_ic_color_effect" android:onClick="onClickColorEffectIcon" style="@style/SettingPanelItem" />
+            <com.miui.camera.ui.RotateTextView android:id="@id/setting_icon" android:text="@string/setting" android:drawableTop="@drawable/setting_ic_setting" android:onClick="onClickSettingIcon" style="@style/SettingPanelItem" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

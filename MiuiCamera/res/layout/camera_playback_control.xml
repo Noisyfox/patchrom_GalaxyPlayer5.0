@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/playback_control_bar" android:background="@drawable/ctl_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.camera.ui.RotateImageView android:id="@id/playback_delete" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/playback_delete" android:scaleType="center" android:layout_weight="1.0" android:onClick="onClick" />
+    <com.miui.camera.ui.RotateImageView android:id="@id/playback_camera" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/playback_camera" android:scaleType="center" android:layout_weight="1.0" android:onClick="onClick" />
+    <com.miui.camera.ui.RotateImageView android:id="@id/playback_send" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/playback_send" android:scaleType="center" android:layout_weight="1.0" android:onClick="onClick" />
+</LinearLayout>

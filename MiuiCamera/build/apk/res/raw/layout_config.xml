@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <device display_height="854" display_width="480">
+        <!-- default 如果出现其他比例，则使用该规则。 相关设置不能保证布局合理 -->
+        <size ratio="default"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_trans"
+            bottom_bar_transparent="true"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="854"
+            preview_bottom_margin="0"/>
+        <!-- 16:9 全屏 下：透明85 上：透明75 -->
+        <size ratio="16:9"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_trans"
+            bottom_bar_transparent="true"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="854"
+            preview_bottom_margin="0"/>
+        <!-- 16：10 下：不透明85 上：透明75 垂直拉伸1px -->
+        <size ratio="16:10"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="769"
+            preview_bottom_margin="85"/>
+        <!-- 3：2 下：不透明85 上：不透明75 上下盖住13px -->
+        <size ratio="3:2"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="720"
+            preview_bottom_margin="72"/>
+        <!-- 4：3 下：不透明122 上：不透明93 下盖住1px -->
+        <size ratio="4:3"
+            bottom_bar_height="122"
+            bottom_bar_background="ctl_bg_122_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="93"
+            top_bar_background="top_bg_93_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="640"
+            preview_bottom_margin="121"/>
+        <!-- 5：4 下：不透明122 上：不透明82 上下各25px补丁 -->
+        <size ratio="5:4"
+            bottom_bar_height="122"
+            bottom_bar_background="ctl_bg_122_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="82"
+            top_bar_background="top_bg_82_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="600"
+            preview_bottom_margin="147"/>
+        <!-- 11：9 下：不透明122 上：不透明82 上32px补丁 下31px补丁 -->
+        <size ratio="11:9"
+            bottom_bar_height="122"
+            bottom_bar_background="ctl_bg_122_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="82"
+            top_bar_background="top_bg_82_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="587"
+            preview_bottom_margin="153"/>
+        <!-- 1：1 下：不透明122 上：不透明82 上85px补丁 下85px补丁 -->
+        <size ratio="1:1"
+            bottom_bar_height="122"
+            bottom_bar_background="ctl_bg_122_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="82"
+            top_bar_background="top_bg_82_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="480"
+            preview_bottom_margin="207"/>
+        <!-- 5：3 下：不透明122 上：不透明82 上85px补丁 下85px补丁 -->
+        <size ratio="5:3"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="800"
+            preview_bottom_margin="54"/>
+    </device>
+    <device display_height="800" display_width="480">
+        <!-- default 如果出现其他比例，则使用该规则。 相关设置不能保证布局合理 -->
+        <size ratio="default"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_trans"
+            bottom_bar_transparent="true"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="800"
+            preview_bottom_margin="0"/>
+        <!-- 5：3 全屏 下：透明85 上：透明75 -->
+        <size ratio="5:3"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_trans"
+            bottom_bar_transparent="true"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="800"
+            preview_bottom_margin="0"/>
+        <!-- 16：9 下：透明85 上：透明75 垂直充满，左右各15px补丁 -->
+        <size ratio="16:9"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_trans"
+            bottom_bar_transparent="true"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="450"
+            preview_height="800"
+            preview_bottom_margin="0"/>
+        <!-- 16：10 下：不透明85 上：透明75 顶部对齐 -->
+        <size ratio="16:10"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="768"
+            preview_bottom_margin="32"/>
+        <!-- 3：2 下：不透明85 上：透明75 顶部对齐 -->
+        <size ratio="3:2"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_trans"
+            top_bar_transparent="true"
+            preview_width="480"
+            preview_height="720"
+            preview_bottom_margin="80"/>
+        <!-- 4：3 下：不透明85 上：不透明75 -->
+        <size ratio="4:3"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="640"
+            preview_bottom_margin="85"/>
+        <!-- 5：4 下：不透明85 上：不透明75 上下各打20px补丁 -->
+        <size ratio="5:4"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="600"
+            preview_bottom_margin="105"/>
+        <!-- 11：9 下：不透明85 上：不透明75 上27px补丁 下26px补丁 -->
+        <size ratio="11:9"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="587"
+            preview_bottom_margin="111"/>
+        <!-- 1：1 下：不透明85 上：不透明75 上下各打80px补丁 -->
+        <size ratio="1:1"
+            bottom_bar_height="85"
+            bottom_bar_background="ctl_bg_85_solid"
+            bottom_bar_transparent="false"
+            top_bar_height="75"
+            top_bar_background="top_bg_75_solid"
+            top_bar_transparent="false"
+            preview_width="480"
+            preview_height="480"
+            preview_bottom_margin="165"/>
+    </device>
+</root>
