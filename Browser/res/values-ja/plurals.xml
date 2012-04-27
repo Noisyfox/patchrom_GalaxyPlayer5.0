@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d件が一致</item>
+        <item quantity="zero">一致するものが​ありません</item>
+        <item quantity="one">1つ​一致</item>
+        <item quantity="few">%d 件が一致</item>
+    </plurals>
+</resources>

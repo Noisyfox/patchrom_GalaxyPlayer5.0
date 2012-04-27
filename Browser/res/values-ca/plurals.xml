@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d coincidències</item>
+        <item quantity="zero">Cap coincidència</item>
+        <item quantity="one">1 coincidència</item>
+        <item quantity="few">%d coincidències</item>
+    </plurals>
+</resources>

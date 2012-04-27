@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" />
+    <ScrollView android:orientation="vertical" android:id="@id/ScrollView01" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:id="@id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" />
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="fill_horizontal" android:id="@id/title" android:layout_width="250.0dip" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:maxLength="4096" android:inputType="textCapSentences" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="#ffc6c3c6" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <Button android:layout_gravity="left" android:id="@id/OK" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save" android:maxLines="2" android:layout_weight="1.0" />
+        <Button android:layout_gravity="right" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/do_not_save" android:maxLines="2" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

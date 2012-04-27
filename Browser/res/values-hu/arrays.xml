@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Mindig bekapcsolva</item>
+        <item>Igény szerint</item>
+        <item>Ki</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Kicsi</item>
+        <item>Kicsi</item>
+        <item>Normál</item>
+        <item>Nagy</item>
+        <item>Nagy</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Távol</item>
+        <item>Közepes</item>
+        <item>Bezárás</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Koreai (EUC-KR)</item>
+        <item>Kínai (GBK)</item>
+        <item>Kínai (Big5)</item>
+        <item>Japán (ISO-2022-JP)</item>
+        <item>Japán (SHIFT JIS)</item>
+        <item>Japán (EUC-JP)</item>
+        <item>Automatikus észlelés</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Memóriakártya</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google fordítás</item>
+        <item>Wikipédia</item>
+        <item>Szótár</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Megosztás szövegként</item>
+        <item>Megosztás képként</item>
+    </string-array>
+</resources>

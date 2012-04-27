@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Siempre activado</item>
+        <item>A petición</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Diminuto</item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Normal</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="pref_text_size_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Alejar</item>
+        <item>Acercar</item>
+        <item>Cerrar</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latino-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chino (GBK)</item>
+        <item>Chino (Big5)</item>
+        <item>Japonés (ISO-2022-JP)</item>
+        <item>Japonés (SHIFT JIS)</item>
+        <item>Japonés (EUC-JP)</item>
+        <item>Detección automática</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>AutoDetect</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Teléfono</item>
+        <item>Tarjeta de memoria</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Baidu Search</item>
+        <item>Baidu Dictionary</item>
+        <item>Baidu Baike</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Compartir como texto</item>
+        <item>Compartir como imagen</item>
+    </string-array>
+</resources>

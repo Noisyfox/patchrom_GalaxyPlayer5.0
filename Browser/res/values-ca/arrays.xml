@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre activat</item>
+        <item>A petició</item>
+        <item>Desactivat</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Molt petita</item>
+        <item>Petita</item>
+        <item>Normal</item>
+        <item>Gran</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Lluny</item>
+        <item>Mitjà</item>
+        <item>Tancar</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Xinès (GBK)</item>
+        <item>Xinès (Big5)</item>
+        <item>Japonès (ISO-2022-JP)</item>
+        <item>Japonès (MAJ_JIS)</item>
+        <item>Japonès (EUC-JP)</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telèfon</item>
+        <item>Targeta de memòria</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Traductor de Google</item>
+        <item>Wikipedia</item>
+        <item>Diccionari</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Compartir com a text</item>
+        <item>Compartir com a imatge</item>
+    </string-array>
+</resources>

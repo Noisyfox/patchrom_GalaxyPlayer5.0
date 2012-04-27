@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vždy zapnuto</item>
+        <item>Na vyžádání</item>
+        <item>Vypnout</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Malé</item>
+        <item>Malé</item>
+        <item>Normální</item>
+        <item>Velké</item>
+        <item>Velké</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Daleko</item>
+        <item>Střední</item>
+        <item>Zavřít</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Korejština (EUC-KR)</item>
+        <item>Čínština (GBK)</item>
+        <item>Čínština (Big5)</item>
+        <item>Japonsky (ISO-2022-JP)</item>
+        <item>Japonsky (SHIFT JIS)</item>
+        <item>Japonsky (EUC-JP)</item>
+        <item>Automatické rozpoznání</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Paměťová karta</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Překlad Google</item>
+        <item>Wikipedia</item>
+        <item>Slovník</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Sdílet jako text</item>
+        <item>Sdílet jako obrázek</item>
+    </string-array>
+</resources>

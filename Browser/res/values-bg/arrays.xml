@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Винаги включено</item>
+        <item>По заявка</item>
+        <item>Изключено</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Малък</item>
+        <item>Малък</item>
+        <item>Нормален</item>
+        <item>Едър</item>
+        <item>Огромен</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Далече</item>
+        <item>Среден</item>
+        <item>Затваряне</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Корейски (EUC-KR)</item>
+        <item>Китайски (GBK)</item>
+        <item>Китайски (Big5)</item>
+        <item>Японски (ISO-2022-JP)</item>
+        <item>Японски (SHIFT JIS)</item>
+        <item>Японски (EUC-JP)</item>
+        <item>Автоматично разпознаване</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Телефон</item>
+        <item>Карта с памет</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Превод с Google</item>
+        <item>Уикипедия</item>
+        <item>Речник</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Споделяне като текст</item>
+        <item>Споделяне като изображение</item>
+    </string-array>
+</resources>

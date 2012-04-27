@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>常にON</item>
+        <item>毎回確認</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>最小</item>
+        <item>小</item>
+        <item>標準</item>
+        <item>大</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>縮小</item>
+        <item>標準</item>
+        <item>拡大</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ラテン​ 1(ISO-8859-1)</item>
+        <item>Unicode（UTF-8)</item>
+        <item>韓国語​（EUC-KR）</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>日本語​（ISO-2022-JP)</item>
+        <item>日本語​（SHIFT_JIS)</item>
+        <item>日本語​（EUC-JP)</item>
+        <item>自動設定</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>本体</item>
+        <item>外部SDカード</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google翻訳</item>
+        <item>ウィキペディア</item>
+        <item>辞書</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>テキストとして共有</item>
+        <item>画像として共有</item>
+    </string-array>
+</resources>

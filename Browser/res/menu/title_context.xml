@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/title_bar_share_page_url" android:title="@string/share_page" />
+    <item android:id="@id/title_bar_copy_page_url" android:title="@string/copy_page_url" />
+</menu>

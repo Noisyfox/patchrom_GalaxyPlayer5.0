@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/pageIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:spacing="4.0dip" />
+    <view android:id="@id/window" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:cacheColorHint="@color/black" android:spacing="20.0dip" android:layout_weight="1.0" class="com.android.browser.ActiveTabsPage$ActiveTabsGallery" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/pagetitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="60.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffa0a0a0" android:gravity="center" android:id="@id/pageurl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="30.0dip" android:singleLine="true" />
+    <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+      xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+        <com.sec.android.touchwiz.widget.TwSoftkeyItem android:gravity="center" android:id="@id/new_window" android:layout_width="wrap_content" android:layout_height="fill_parent" touchwiz:twSoftkeyItemType="text" touchwiz:twSoftkeyItemText="@string/new_tab" />
+    </com.sec.android.touchwiz.widget.TwSoftkeyView>
+</LinearLayout>

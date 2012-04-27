@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/browser_thumbnail" android:scaleType="center" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/holder" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/thumb" android:layout_alignBottom="@id/thumb">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_list_bookmark" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_bookmark_short" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="bottom" android:id="@id/label" android:paddingLeft="2.0dip" android:paddingTop="0.0dip" android:paddingRight="2.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxLines="1" android:scrollHorizontally="true" android:layout_below="@id/thumb" android:layout_alignLeft="@id/thumb" android:layout_alignRight="@id/thumb" />
+</RelativeLayout>

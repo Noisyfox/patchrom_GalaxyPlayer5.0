@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>항상 켜기</item>
+        <item>요구 시</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>아주 작게</item>
+        <item>작게</item>
+        <item>보통</item>
+        <item>크게</item>
+        <item>아주 크게</item>
+    </string-array>
+    <string-array name="pref_text_size_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>축소</item>
+        <item>중간</item>
+        <item>확대</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values">
+        <item>FAR</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>자동 검색</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>유니코드(UTF-8)</item>
+        <item>한국어(EUC-KR)</item>
+        <item>중국어(GBK)</item>
+        <item>중국어(Big5)</item>
+        <item>일본어(ISO-2022-JP)</item>
+        <item>일본어(SHIFT JIS)</item>
+        <item>일본어(EUC-JP)</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>AutoDetect</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>EUC-KR</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>기기</item>
+        <item>메모리 카드</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Baidu Search</item>
+        <item>Baidu Dictionary</item>
+        <item>Baidu Baike</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>텍스트로 공유</item>
+        <item>이미지로 공유</item>
+    </string-array>
+</resources>

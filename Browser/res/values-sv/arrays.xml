@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Alltid på</item>
+        <item>På begäran</item>
+        <item>Av</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Jättestor</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Långt</item>
+        <item>Medel</item>
+        <item>Stäng</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Koreanska (EUC-KR)</item>
+        <item>Kinesiska (GBK)</item>
+        <item>Kinesiska (Big5)</item>
+        <item>Japanska (ISO-2022-JP)</item>
+        <item>Japanska (SKIFT-JIS)</item>
+        <item>Japanska (EUC-JP)</item>
+        <item>Identifiera automatiskt</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Minneskort</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google Översätt</item>
+        <item>Wikipedia</item>
+        <item>Ordlista</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Dela som text</item>
+        <item>Dela som bild</item>
+    </string-array>
+</resources>

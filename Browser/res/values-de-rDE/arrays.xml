@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>ask_de</item>
+        <item>bing_de_DE</item>
+        <item>yahoo_de</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Immer ein</item>
+        <item>Bei Bedarf</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Mini</item>
+        <item>Klein</item>
+        <item>Normal</item>
+        <item>Groß</item>
+        <item>Sehr groß</item>
+    </string-array>
+    <string-array name="pref_text_size_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Weit</item>
+        <item>Mittel</item>
+        <item>Nah</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values">
+        <item>FAR</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Koreanisch (EUC-KR)</item>
+        <item>Chinesisch (GBK)</item>
+        <item>Chinesisch (Big5)</item>
+        <item>Japanisch (ISO-2022-JP)</item>
+        <item>Japanisch (SHIFT JIS)</item>
+        <item>Japanisch (EUC-JP)</item>
+        <item>Automatische Erkennung</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>EUC-KR</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>AutoDetect</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Speicherkarte</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Mit Google übersetzen</item>
+        <item>Wikipedia</item>
+        <item>Wörterbuch</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Als Text freigeben</item>
+        <item>Als Bild freigeben</item>
+    </string-array>
+</resources>

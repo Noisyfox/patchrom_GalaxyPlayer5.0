@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>yahoo</item>
+        <item>in</item>
+        <item>bing_el_GR</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Πάντα ενεργοποίηση</item>
+        <item>Κατ’απαίτηση</item>
+        <item>Ανενεργό</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Πολύ μικρό</item>
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>Τεράστιο</item>
+    </string-array>
+    <string-array name="pref_text_size_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Μακριά</item>
+        <item>Μεσαίο</item>
+        <item>Κλείσιμο</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values">
+        <item>FAR</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Λατινικά-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Κορεατικά (EUC-KR)</item>
+        <item>Κινεζικά (GBK)</item>
+        <item>Κινεζικά (Big5)</item>
+        <item>Ιαπωνικά (ISO-2022-JP)</item>
+        <item>Ιαπωνικά (SHIFT JIS)</item>
+        <item>Ιαπωνικά (EUC-JP)</item>
+        <item>Αυτόματος εντοπισμός</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>EUC-KR</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>AutoDetect</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Συσκευή</item>
+        <item>Κάρτα μνήμης</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Μετάφραση Google</item>
+        <item>Wikipedia</item>
+        <item>Λεξικό</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Κοινή χρήση ως κείμενο</item>
+        <item>Κοινή χρήση ως εικόνα</item>
+    </string-array>
+</resources>

@@ -1415,7 +1415,7 @@
     .parameter "x0"
 
     .prologue
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
+    #invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
 
     return-void
 .end method
@@ -1449,7 +1449,7 @@
     .parameter "x1"
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataNetType(I)V
+    #invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataNetType(I)V
 
     return-void
 .end method
@@ -2685,11 +2685,11 @@
 
     move-result v3
 
-    invoke-direct {p0, v3}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataNetType(I)V
+    #invoke-direct {p0, v3}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataNetType(I)V
 
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
+    #invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
 
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSignalStrength()V
+    #invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateSignalStrength()V
 
     goto :goto_0
 
@@ -3554,7 +3554,7 @@
     iput-object v2, p0, Lcom/android/systemui/statusbar/StatusBarPolicy;->mSimState:Lcom/android/internal/telephony/IccCard$State;
 
     :goto_0
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
+    #invoke-direct {p0}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateDataIcon()V
 
     return-void
 

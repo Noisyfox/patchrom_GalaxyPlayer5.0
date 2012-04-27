@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Her zaman açık</item>
+        <item>İstek üzerine</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>İnce</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Çok büyük</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Uzak</item>
+        <item>Orta</item>
+        <item>Kapat</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Korece (EUC-KR)</item>
+        <item>Çince (GBK)</item>
+        <item>Çince (Big5)</item>
+        <item>Japonca (ISO-2022-JP)</item>
+        <item>Japonca (SHIFT JIS)</item>
+        <item>Japonca (EUC-JP)</item>
+        <item>Otomatik algıla</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Hafıza kartı</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google çeviri</item>
+        <item>Wikipedia</item>
+        <item>Sözlük</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Metin olarak paylaş</item>
+        <item>Resim olarak paylaş</item>
+    </string-array>
+</resources>

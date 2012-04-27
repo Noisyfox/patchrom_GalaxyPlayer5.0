@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/MAIN_MENU">
+        <item android:icon="@drawable/ic_menu_new_window" android:id="@id/new_tab_menu_id" android:title="@string/new_tab" android:alphabeticShortcut="n" />
+        <item android:icon="@drawable/ic_menu_windows" android:id="@id/active_tabs_menu_id" android:title="@string/active_tabs" android:alphabeticShortcut="t" />
+        <item android:icon="@drawable/ic_menu_brightness" android:id="@id/brightness_menu_id" android:title="@string/menu_brightness_setting" android:alphabeticShortcut="b" />
+        <item android:id="@id/stop_reload_menu_id" android:alphabeticShortcut="r" />
+        <item android:icon="@drawable/ic_menu_forward" android:id="@id/forward_menu_id" android:title="@string/forward" android:alphabeticShortcut="k" />
+        <item android:icon="@drawable/ic_menu_add_bookmark" android:id="@id/add_bookmark_menu_id" android:title="@string/save_to_bookmarks" android:alphabeticShortcut="a" />
+        <item android:id="@id/add_shortcut_to_home" android:title="@string/create_shortcut_bookmark" android:alphabeticShortcut="h" />
+        <item android:id="@id/add_rss_menu_id" android:title="@string/add_rss" android:alphabeticShortcut="m" />
+        <item android:id="@id/find_menu_id" android:title="@string/find_dot" android:alphabeticShortcut="f" />
+        <item android:id="@id/page_info_menu_id" android:title="@string/page_info" android:alphabeticShortcut="g" />
+        <item android:id="@id/share_page_menu_id" android:title="@string/share_page" android:alphabeticShortcut="s" />
+        <item android:id="@id/view_downloads_menu_id" android:title="@string/menu_view_download" android:alphabeticShortcut="d" />
+        <item android:id="@id/preferences_menu_id" android:title="@string/menu_preferences" android:alphabeticShortcut="p" />
+        <item android:id="@id/dump_nav_menu_id" android:visible="false" android:title="@string/dump_nav" />
+        <item android:id="@id/dump_counters_menu_id" android:visible="false" android:title="@string/dump_counters" />
+    </group>
+    <group android:id="@id/MAIN_SHORTCUT_MENU" android:visible="false">
+        <item android:id="@id/homepage_menu_id" android:alphabeticShortcut=" " />
+        <item android:id="@id/classic_history_menu_id" android:alphabeticShortcut="h" />
+        <item android:id="@id/zoom_in_menu_id" android:alphabeticShortcut="i" />
+        <item android:id="@id/zoom_out_menu_id" android:alphabeticShortcut="o" />
+        <item android:id="@id/window_one_menu_id" android:alphabeticShortcut="1" />
+        <item android:id="@id/window_two_menu_id" android:alphabeticShortcut="2" />
+        <item android:id="@id/window_three_menu_id" android:alphabeticShortcut="3" />
+        <item android:id="@id/window_four_menu_id" android:alphabeticShortcut="4" />
+        <item android:id="@id/window_five_menu_id" android:alphabeticShortcut="5" />
+        <item android:id="@id/window_six_menu_id" android:alphabeticShortcut="6" />
+        <item android:id="@id/window_seven_menu_id" android:alphabeticShortcut="7" />
+        <item android:id="@id/window_eight_menu_id" android:alphabeticShortcut="8" />
+        <item android:id="@id/back_menu_id" android:drawable="@android:drawable/emoji_e01d" android:title="@string/back" android:alphabeticShortcut="j" />
+        <item android:icon="@android:drawable/ic_menu_search" android:id="@id/goto_menu_id" android:title="@string/goto_dot" android:alphabeticShortcut="l" />
+        <item android:icon="@drawable/ic_btn_close_panel" android:id="@id/close_menu_id" android:title="@string/tab_picker_remove_tab" android:alphabeticShortcut="w" />
+    </group>
+    <item android:icon="@drawable/ic_menu_stop" android:id="@id/stop_menu_id" android:visible="false" android:title="@string/stop" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/reload_menu_id" android:visible="false" android:title="@string/reload" />
+</menu>

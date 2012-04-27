@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_development_title" android:key="debug_menu">
+        <CheckBoxPreference android:title="@string/pref_development_error_console" android:key="javascript_console" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_development_single_column_rendering" android:key="small_screen" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_development_viewport" android:key="wide_viewport" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_development_normal_rendering" android:key="normal_layout" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_development_trace" android:key="enable_tracing" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Enable light touch" android:key="enable_light_touch" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_development_nav_dump" android:key="enable_nav_dump" android:defaultValue="false" />
+        <EditTextPreference android:singleLine="true" android:title="@string/js_engine_flags" android:key="js_engine_flags" />
+    </PreferenceCategory>
+</PreferenceScreen>

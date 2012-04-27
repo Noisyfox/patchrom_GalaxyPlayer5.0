@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vedno vključeno</item>
+        <item>Na zahtevo</item>
+        <item>Izključeno</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Najmanjše</item>
+        <item>Majhna</item>
+        <item>Normalno</item>
+        <item>Veliko</item>
+        <item>Največje</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Oddaljeno</item>
+        <item>Srednja</item>
+        <item>Blizu</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latinski-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Korejščina (EUC-KR)</item>
+        <item>Kitajščina (GBK)</item>
+        <item>Kitajščina (Big5)</item>
+        <item>Japonščina (ISO-2022-JP)</item>
+        <item>Japonščina (SHIFT JIS)</item>
+        <item>Japonščina (EUC-JP)</item>
+        <item>Samodejno zaznavanje</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefon</item>
+        <item>Pomnilniška kartica</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Prevajalnik Google</item>
+        <item>Wikipedija</item>
+        <item>Slovar</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Daj v skupno rabo kot besedilo</item>
+        <item>Daj v skupno rabo kot sliko</item>
+    </string-array>
+</resources>

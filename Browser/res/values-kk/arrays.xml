@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Әрдайым қосулы</item>
+        <item>Талап етілгенде</item>
+        <item>Өшірілген</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Ұсақ</item>
+        <item>Ұсақ</item>
+        <item>Әдеттегі</item>
+        <item>Ірі</item>
+        <item>Ірі</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Алыс</item>
+        <item>Орташа</item>
+        <item>Жабу</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латын-1 (ISO-8859-1)</item>
+        <item>Юникод (UTF-8)</item>
+        <item>Корей (EUC-KR)</item>
+        <item>Қытай (GBK)</item>
+        <item>Қытай (Big5)</item>
+        <item>Жапон (ISO-2022-JP)</item>
+        <item>Жапон (SHIFT JIS)</item>
+        <item>Жапон (EUC-JP)</item>
+        <item>Автоматты анықтау</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Телефон</item>
+        <item>Жад картасы</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google аудару</item>
+        <item>Wikipedia</item>
+        <item>Сөздік</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Мәтін ретінде бөлісу</item>
+        <item>Сурет ретінде бөлісу</item>
+    </string-array>
+</resources>

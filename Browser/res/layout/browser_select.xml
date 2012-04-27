@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/selectControls" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_copy" />
+    <ImageButton android:id="@id/share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_share" />
+    <ImageButton android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_select_all" />
+    <ImageButton android:id="@id/find" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_find" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_close_panel" />
+</LinearLayout>

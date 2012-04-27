@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_add_bookmark" android:id="@id/new_context_menu_id" android:title="@string/bookmark_page" />
+    <item android:id="@id/switch_mode_menu_id" />
+    <item android:icon="@drawable/ic_menu_add_folder" android:id="@id/create_folder_menu_id" android:title="@string/create_folder" />
+</menu>

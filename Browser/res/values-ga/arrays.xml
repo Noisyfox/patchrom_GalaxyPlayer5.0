@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Ar siúl i gcónaí</item>
+        <item>Ar éileamh</item>
+        <item>As</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Bídeach</item>
+        <item>Beag</item>
+        <item>Normálta</item>
+        <item>Mór</item>
+        <item>Ollmhór</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>I bhfad amach</item>
+        <item>Meán</item>
+        <item>Dún</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Laidin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Cóiréis (EUC-KR)</item>
+        <item>Sínis (GBK)</item>
+        <item>Sínis (Big5)</item>
+        <item>Seapáinis (ISO-2022-JP)</item>
+        <item>Seapáinis (SHIFT JIS)</item>
+        <item>Seapáinis (EUC-JP)</item>
+        <item>Uathbhraith</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Fón</item>
+        <item>Cárta cuimhne</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Aistrigh le Google</item>
+        <item>Wikipedia</item>
+        <item>Foclóir</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Comhroinn mar théacs</item>
+        <item>Comhroinn mar íomhá</item>
+    </string-array>
+</resources>

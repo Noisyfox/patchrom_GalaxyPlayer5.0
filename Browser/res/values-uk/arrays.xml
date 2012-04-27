@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Завжди увімк.</item>
+        <item>За вимогою</item>
+        <item>Вимкнено</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Простий</item>
+        <item>Малий</item>
+        <item>Звичайний</item>
+        <item>Великий</item>
+        <item>Великий</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Далеко</item>
+        <item>Cередній</item>
+        <item>Закрити</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латиниця-1 (ISO-8859-1)</item>
+        <item>Юнікод (UTF-8)</item>
+        <item>Корейська (EUC-KR)</item>
+        <item>Китайська (GBK)</item>
+        <item>Китайська (Big5)</item>
+        <item>Японська (ISO-2022-JP)</item>
+        <item>Японська (SHIFT JIS)</item>
+        <item>Японська (EUC-JP)</item>
+        <item>Автоматичне розпізнавання</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Телефон</item>
+        <item>Карта пам’яті</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Переклад Google</item>
+        <item>Wikipedia</item>
+        <item>Словник</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Обмін у вигляді тексту</item>
+        <item>Обмін у вигляді зображення</item>
+    </string-array>
+</resources>

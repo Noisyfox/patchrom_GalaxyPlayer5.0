@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="middle" android:id="@id/download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/download_icon" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/domain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/download_icon" android:layout_below="@id/download_title" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/complete_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/domain" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/complete_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/complete_date" android:layout_toRightOf="@id/download_icon" android:layout_below="@id/domain" />
+    <ProgressBar android:id="@id/download_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/download_icon" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/download_progress" android:layout_centerHorizontal="true" />
+</RelativeLayout>

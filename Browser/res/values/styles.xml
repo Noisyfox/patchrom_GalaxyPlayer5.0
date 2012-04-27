@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrowserTheme" parent="@touchwiz:style/TwTheme">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/initial_titlebar</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="BookmarkTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="FindDialog">
+        <item name="android:windowEnterAnimation">@anim/find_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/find_dialog_exit</item>
+    </style>
+    <style name="TitleBar">
+        <item name="android:windowEnterAnimation">@anim/title_bar_enter</item>
+        <item name="android:windowExitAnimation">@anim/title_bar_exit</item>
+    </style>
+    <style name="IconPopupMenu">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="IconPopupMenuAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/icon_popup_menu_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/icon_popup_menu_above_exit</item>
+    </style>
+    <style name="IconPopupMenuBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/icon_popup_menu_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/icon_popup_menu_below_exit</item>
+    </style>
+    <style name="FindDialogTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/FindDialog</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

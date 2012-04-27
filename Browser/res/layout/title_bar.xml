@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/search_plate_browser" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_horizontal" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginLeft="1.0dip" android:max="100" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_bg" android:background="@drawable/title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/favicon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" />
+            <ImageView android:id="@id/lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:id="@id/rsslink" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/stop" android:background="@drawable/stop_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_btn_stop_v2" />
+        <ImageView android:id="@id/rt_btn" android:background="@drawable/btn_bookmark" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_btn_bookmarks" />
+    </LinearLayout>
+</LinearLayout>

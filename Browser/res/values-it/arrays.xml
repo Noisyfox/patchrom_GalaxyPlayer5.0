@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre attivo</item>
+        <item>Su richiesta</item>
+        <item>Non attivo</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Minuscolo</item>
+        <item>Piccolo</item>
+        <item>Normale</item>
+        <item>Grande</item>
+        <item>Molto grande</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Minimo</item>
+        <item>Medio</item>
+        <item>Massimo</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Coreano (EUC-KR)</item>
+        <item>Cinese (GBK)</item>
+        <item>Cinese (Big5)</item>
+        <item>Giapponese (ISO-2022-JP)</item>
+        <item>Giapponese (SHIFT JIS)</item>
+        <item>Giapponese (EUC-JP)</item>
+        <item>Rilevamento automatico</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>人人网</item>
+        <item>http://www.renren.com/</item>
+        <item>开心001</item>
+        <item>http://www.kaixin001.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>百度</item>
+        <item>http://www.baidu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com/</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Telefono</item>
+        <item>Scheda di memoria</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Traduci con Google</item>
+        <item>Wikipedia</item>
+        <item>Dizion.</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Condividi come testo</item>
+        <item>Condividi come immagine</item>
+    </string-array>
+</resources>
