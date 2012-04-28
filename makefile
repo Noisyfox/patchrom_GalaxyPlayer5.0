@@ -14,14 +14,16 @@ local-out-zip-file := G70ZCKP9_MIUI.zip
 local-modified-apps := MediaProvider Phone Browser
 
 # All apks from MIUI execept MIUISystemUI and framework-res.apk
-local-miui-apps     := Contacts ContactsProvider TelephonyProvider ThemeManager \
-	DownloadProvider Notes Music DownloadProviderUi Updater SideKick
+local-miui-apps     := Contacts ContactsProvider ThemeManager \
+	DownloadProvider Notes Music Updater SideKick DownloadProviderUi
 
 local-miui-modified-apps := Launcher2
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
-        SnsProvider TwLauncher45 VoiceSearch MusicPlayer SoundPlayer Divx wipereceiver
+        SnsProvider TwLauncher45 VoiceSearch MusicPlayer SoundPlayer Divx wipereceiver \
+        ApplicationsProvider BadgeProvider BluetoothPbap InputEventApp MmsProvisioning Personalization \
+        Phone_Util PopupuiReceiver Preconfig Provision serviceModeApp SimDetachNotifier wssyncmlnps
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
@@ -39,9 +41,10 @@ include $(PORT_BUILD)/porting.mk
 local-zip-misc:
 	cp misc/com.google.android.maps.jar $(ZIP_DIR)/system/framework/
 	@echo Add google apks
-	cp misc/apk/* $(ZIP_DIR)/system/app/
+	cp misc/gapps/* $(ZIP_DIR)/system/app/
 	@echo Replace build.prop
 	cp misc/build.prop $(ZIP_DIR)/system/build.prop
+        @echo Some more tweaks
 	cp misc/bootanimation.zip $(ZIP_DIR)/system/media/bootanimation.zip
 	rm $(ZIP_DIR)/system/media/bootsamsung.qmg
 	rm $(ZIP_DIR)/system/media/bootsamsungloop.qmg

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/download_center_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*miui:style/WindowTitleBackground.Tall">
+        <TextView android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/download_title" android:layout_weight="1.0" style="@*miui:style/WindowTitle" />
+        <ImageView android:id="@id/dropdown_button" android:background="@drawable/btn_dropdown" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/tablayout" android:background="@miui:drawable/secondary_title_background" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/download_running_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/download_running_tab_text" android:layout_weight="1.0" style="@*miui:style/TextAppearanceSecondaryTab.Left" />
+        <Button android:id="@id/download_successful_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/download_successful_tab_text" android:layout_weight="1.0" style="@*miui:style/TextAppearanceSecondaryTab.Right" />
+    </LinearLayout>
+    <EditableListView android:id="@id/size_ordered_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@*miui:style/Widget.ListView.NoDivider" />
+    <ViewStub android:id="@id/empty" android:layout="@layout/no_downloads" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/bottom_wifi_control_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*miui:style/BottomButtonBar">
+        <TextView android:textSize="@miui:dimen/button_bar_text_size" android:gravity="center_vertical" android:id="@android:id/title" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/pause_download_when_wifi_disconnected" android:layout_weight="1.0" />
+        <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@id/download_only_in_wifi" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <miui.widget.EditableListActionBar android:id="@id/operation_bar" android:visibility="gone" android:inAnimation="@anim/in_anim" android:outAnimation="@anim/out_anim" style="@*miui:style/BottomButtonBar">
+        <miui.widget.ImageTextButton android:id="@id/download_item_delete" android:text="@string/delete_download" android:drawableLeft="@drawable/delete" android:drawablePadding="5.0dip" style="@*miui:style/BottomButton.Left" />
+        <Button android:id="@id/download_item_operation" android:visibility="gone" style="@*miui:style/BottomButton.Middle" />
+        <Button android:id="@id/download_item_select_all" android:text="@string/select_all_downloads" style="@*miui:style/BottomButton.Right" />
+    </miui.widget.EditableListActionBar>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="download_center_title">false</item>
+    <item type="id" name="dropdown_button">false</item>
+    <item type="id" name="tablayout">false</item>
+    <item type="id" name="download_running_button">false</item>
+    <item type="id" name="download_successful_button">false</item>
+    <item type="id" name="size_ordered_list">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="bottom_wifi_control_bar">false</item>
+    <item type="id" name="download_only_in_wifi">false</item>
+    <item type="id" name="operation_bar">false</item>
+    <item type="id" name="download_item_delete">false</item>
+    <item type="id" name="download_item_operation">false</item>
+    <item type="id" name="download_item_select_all">false</item>
+    <item type="id" name="itemLayout">false</item>
+    <item type="id" name="download_icon">false</item>
+    <item type="id" name="download_title">false</item>
+    <item type="id" name="download_progress">false</item>
+    <item type="id" name="item_info">false</item>
+    <item type="id" name="download_info">false</item>
+    <item type="id" name="action_button">false</item>
+    <item type="id" name="download_menu_enter_edit_mode">false</item>
+    <item type="id" name="download_menu_exit_edit_mode">false</item>
+    <item type="id" name="download_menu_delete_downloads_records">false</item>
+</resources>

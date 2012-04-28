@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/download_menu_enter_edit_mode" android:title="@string/menu_enter_edit_mode" />
+    <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/download_menu_exit_edit_mode" android:title="@string/menu_exit_edit_mode" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/download_menu_delete_downloads_records" android:title="@string/delete_downloads_records" />
+</menu>

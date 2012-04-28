@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.media" android:versionCode="10" android:versionName="2.3.7" package="com.android.providers.downloads.ui"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_launcher_download" android:process="android.process.media">
+        <activity android:theme="@miui:style/Theme.NoTitleBar" android:name=".DownloadList" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_DOWNLOADS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".MiuiPushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_MIUI_PUSH" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
