@@ -31,7 +31,7 @@
         <item android:id="@id/window_six_menu_id" android:alphabeticShortcut="6" />
         <item android:id="@id/window_seven_menu_id" android:alphabeticShortcut="7" />
         <item android:id="@id/window_eight_menu_id" android:alphabeticShortcut="8" />
-        <item android:id="@id/back_menu_id" android:drawable="@android:drawable/emoji_e01d" android:title="@string/back" android:alphabeticShortcut="j" />
+        <item android:id="@id/back_menu_id" android:drawable="@android:drawable/ic_menu_back" android:title="@string/back" android:alphabeticShortcut="j" />
         <item android:icon="@android:drawable/ic_menu_search" android:id="@id/goto_menu_id" android:title="@string/goto_dot" android:alphabeticShortcut="l" />
         <item android:icon="@drawable/ic_btn_close_panel" android:id="@id/close_menu_id" android:title="@string/tab_picker_remove_tab" android:alphabeticShortcut="w" />
     </group>
