@@ -17,7 +17,7 @@ local-modified-apps := MediaProvider Phone Browser
 local-miui-apps     := Contacts ContactsProvider ThemeManager \
 	DownloadProvider Notes Music Updater SideKick DownloadProviderUi
 
-local-miui-modified-apps := Launcher2
+local-miui-modified-apps := Launcher2 Torch
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
