@@ -141,6 +141,11 @@ splash(
 #
 fontresload( "0", "ttf/DroidSans.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansFallback.ttf;", "12" ); #-- Use sets of font (Font Family)
 
+##
+# SET THEME
+#
+theme("miui");
+
 ###################################################################################################################
 #
 # SHOW LANGUAGE SELECTION
@@ -181,12 +186,6 @@ if prop("lang.prop","selected.0")=="2" then
   fontresload( "0", "ttf/DroidSansFallback.ttf;ttf/DroidSans.ttf", "12" ); #-- Use sets of font (Font Family)
   fontresload( "1", "ttf/DroidSansFallback.ttf;ttf/DroidSans.ttf", "18" );
 endif;
-
-##
-# SET THEME
-#
-theme("miui");
-
 
 ###################################################################################################################
 #
