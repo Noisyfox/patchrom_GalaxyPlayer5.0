@@ -187,6 +187,10 @@ if prop("lang.prop","selected.0")=="2" then
   fontresload( "1", "ttf/DroidSansFallback.ttf;ttf/DroidSans.ttf", "18" );
 endif;
 
+##
+# SET THEME
+#
+theme("miui");
 ###################################################################################################################
 #
 # STEP 2 - SHOW ROM INFORMATION
