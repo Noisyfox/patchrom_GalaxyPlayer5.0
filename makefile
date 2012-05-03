@@ -15,9 +15,9 @@ local-modified-apps := MediaProvider Phone Browser
 
 # All apks from MIUI execept MIUISystemUI and framework-res.apk
 local-miui-apps     := Contacts ContactsProvider ThemeManager \
-	DownloadProvider Notes Music Updater SideKick DownloadProviderUi
+	DownloadProvider Notes Music Updater SideKick
 
-local-miui-modified-apps := Launcher2 Torch
+local-miui-modified-apps := Launcher2 Torch DownloadProviderUi
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
@@ -39,15 +39,15 @@ include $(PORT_BUILD)/porting.mk
 
 # To define any local-target
 local-zip-misc:
-	cp misc/com.google.android.maps.jar $(ZIP_DIR)/system/framework/
-	@echo Add google apks
-	cp misc/gapps/* $(ZIP_DIR)/system/app/
 	@echo Replace build.prop
 	cp misc/build.prop $(ZIP_DIR)/system/build.prop
 	@echo Some more tweaks
 	cp misc/bootanimation.zip $(ZIP_DIR)/system/media/bootanimation.zip
 	rm $(ZIP_DIR)/system/media/bootsamsung.qmg
 	rm $(ZIP_DIR)/system/media/bootsamsungloop.qmg
+	@echo Add advanced installer
+	rm -r $(ZIP_DIR)/META-INF/
+	cp -r misc/installer/* $(ZIP_DIR)/
 
 local-test:
 	echo "an example action"
