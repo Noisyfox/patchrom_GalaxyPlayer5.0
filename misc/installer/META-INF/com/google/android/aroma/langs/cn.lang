@@ -26,8 +26,8 @@
 text_ok=确定
 text_next=下一步 >
 text_back=< 返回
-text_yes=同意
-text_no=放弃
+text_yes=是
+text_no=否
 text_about=关于
 text_calibrating=屏幕校准
 text_quit=退出安装
