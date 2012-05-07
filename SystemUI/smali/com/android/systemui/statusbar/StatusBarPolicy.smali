@@ -1320,7 +1320,7 @@
     .parameter "x1"
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateHeadset(Landroid/content/Intent;)V
+    #invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/StatusBarPolicy;->updateHeadset(Landroid/content/Intent;)V
 
     return-void
 .end method
