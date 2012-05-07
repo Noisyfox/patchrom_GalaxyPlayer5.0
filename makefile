@@ -23,7 +23,7 @@ local-miui-modified-apps := Launcher2 Torch DownloadProviderUi
 local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
 	SnsProvider TwLauncher45 VoiceSearch MusicPlayer SoundPlayer Divx wipereceiver \
 	ApplicationsProvider BadgeProvider BluetoothPbap InputEventApp MmsProvisioning Personalization \
-	Phone_Util PopupuiReceiver Preconfig Provision serviceModeApp SimDetachNotifier wssyncmlnps
+	Phone_Util PopupuiReceiver Preconfig serviceModeApp SimDetachNotifier wssyncmlnps
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
