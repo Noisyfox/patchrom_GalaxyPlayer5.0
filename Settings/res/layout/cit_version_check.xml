@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cit_device_model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <TextView android:id="@id/cit_build_number" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <TextView android:id="@id/cit_firmware_version" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <TextView android:id="@id/cit_baseband_version" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <TextView android:id="@id/cit_kernel_version" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <Preference android:title="@string/sd_eject" android:key="memory_sd_mount_toggle" android:summary="@string/sd_eject_summary" />
+        <Preference android:title="@string/sd_format" android:key="memory_sd_format" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sd_memory">
+        <Preference android:title="@string/memory_size" android:key="memory_sd_size" android:summary="00" />
+        <Preference android:title="@string/memory_available" android:key="memory_sd_avail" android:summary="00" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sd_ext_memory" android:key="sd_ext_memory">
+        <Preference android:title="@string/memory_size" android:key="memory_sd_ext_size" android:summary="00" />
+        <Preference android:title="@string/memory_available" android:key="memory_sd_ext_avail" android:summary="00" />
+    </PreferenceCategory>
+</PreferenceScreen>

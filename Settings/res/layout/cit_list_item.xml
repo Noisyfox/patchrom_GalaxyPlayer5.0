@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.ListView.PrimaryItem" android:gravity="left|center" android:id="@id/cit_test_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+    <TextView android:gravity="right|center" android:id="@id/cit_test_result" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+</LinearLayout>

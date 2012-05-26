@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_horizontal" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_your_language" />
+    <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/buttons" style="@miui:style/BottomButtonBar">
+        <Button android:id="@id/button_done" android:text="@string/button_done" style="@miui:style/BottomButton.Left" />
+        <Button android:id="@id/button_cancel" android:text="@string/button_cancel" style="@miui:style/BottomButton.Right" />
+    </LinearLayout>
+</LinearLayout>

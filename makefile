@@ -11,7 +11,7 @@ local-zip-file     := G70ZCKP9.zip
 local-out-zip-file := G70ZCKP9_MIUI.zip
 
 # All apps from zip and has smali files chanded(need to be builded by apktool)
-local-modified-apps := MediaProvider Phone Browser
+local-modified-apps := MediaProvider Phone Browser SettingsProvider Settings
 
 # All apks from MIUI execept MIUISystemUI and framework-res.apk
 local-miui-apps     := Contacts ContactsProvider ThemeManager \

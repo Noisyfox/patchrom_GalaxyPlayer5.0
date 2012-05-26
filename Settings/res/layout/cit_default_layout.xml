@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff0000ff" android:id="@id/cit_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <ViewStub android:id="@id/cit_test_panel_stub" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cit_btn_pass" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cit_pass" android:layout_weight="1.0" />
+        <Button android:id="@id/cit_btn_fail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cit_fail" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

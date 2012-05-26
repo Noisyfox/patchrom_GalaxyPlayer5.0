@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:orientation="vertical" android:background="@miui:drawable/preference_one_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:paddingTop="5.0dip">
+        <TextView android:text="@string/device_model" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_model" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow style="@style/InformationItemTabStyle">
+        <TextView android:text="@string/device_version" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_version" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow style="@style/InformationItemTabStyle">
+        <TextView android:text="@string/device_cpu" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_cpu" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow style="@style/InformationItemTabStyle">
+        <TextView android:text="@string/device_memory" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_memory" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow style="@style/InformationItemTabStyle">
+        <TextView android:text="@string/device_internal_memory" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_internal_memory_available" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow style="@style/InformationItemTabStyle">
+        <TextView style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_internal_memory_total" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow android:id="@id/sdcard_available_row" style="@style/InformationItemTabStyle">
+        <TextView android:text="@string/device_sdcard" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_sdcard_available" style="@style/InformationTextStyle" />
+    </TableRow>
+    <TableRow android:paddingBottom="5.0dip" style="@style/InformationItemTabStyle">
+        <TextView android:id="@id/sdcard_total_title" style="@style/InformationItemTitleStyle" />
+        <TextView android:id="@id/device_sdcard_total" style="@style/InformationTextStyle" />
+    </TableRow>
+</TableLayout>

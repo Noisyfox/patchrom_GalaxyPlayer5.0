@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/personal_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/personalization_category" android:key="personalization_category">
+        <PreferenceScreen android:title="@string/sound_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SoundSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/display_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DisplaySettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/trackball_settings" android:key="trackball">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TrackballSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/customized_theme_title">
+            <intent android:targetPackage="com.android.thememanager" android:action="android.intent.action.MAIN" android:targetClass="com.android.thememanager.ThemeResourceTabActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/wallpaper_settings_title">
+            <intent android:targetPackage="com.android.thememanager" android:action="android.intent.action.MAIN" android:targetClass="com.android.thememanager.WallpaperSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/launcher_settings_title" android:key="launcher_settings">
+            <intent android:targetPackage="com.android.launcher" android:action="android.intent.action.MAIN" android:targetClass="com.android.launcher2.LauncherPreferenceActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/font_size_settings_title" android:key="font_size_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.FontSizeSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/status_bar_toggle_settings" android:key="status_bar_toggle_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.StatusBarToggleSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/personal_info_category">
+        <PreferenceScreen android:title="@string/personal_password_title" android:key="personal_password">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ChooseLockGeneric" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/access_control_title" android:key="access_control">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AccessControl" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/location_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LocationSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/security_privacy_settings_title" android:key="privacy_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SecuritySettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/sync_settings_title" android:key="sync_settings">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

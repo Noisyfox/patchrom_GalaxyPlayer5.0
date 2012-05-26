@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/battery_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.BatteryLevelPreference android:persistent="false" android:key="battery_level" />
+    <PreferenceCategory android:title="@string/battery_low_level">
+        <RangeBarPreference android:persistent="false" android:entries="@array/battery_low_level_entries" android:title="@string/battery_low_level" android:key="low_level" android:entryValues="@array/battery_low_level_values" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <CheckBoxPreference android:title="@string/monitor_history" android:key="monitor_history" />
+        <PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" android:dependency="monitor_history">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.android.settings.ListPreferenceScreen android:persistent="false" android:entries="@array/battery_indicator_style_entries" android:title="@string/battery_indicator_style" android:key="indicator_style" android:entryValues="@array/battery_indicator_style_values" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <CheckBoxPreference android:persistent="false" android:title="@string/lpa_decode" android:key="lpa_decode" android:summary="@string/lpa_decode_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/enable_gpu" android:key="enable_gpu" android:summary="@string/enable_gpu_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

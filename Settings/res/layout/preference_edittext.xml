@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@miui:color/preference_primary_text" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="84.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+    <EditText android:textSize="18.0sp" android:textColor="@miui:color/preference_secondary_text" android:id="@id/edittext" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

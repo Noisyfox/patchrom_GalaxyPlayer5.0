@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/network_category" android:key="network">
+        <CheckBoxPreference android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/nfc_quick_toggle_title" android:key="toggle_nfc" />
+        <PreferenceScreen android:title="@string/carrier_settings_title" android:key="carrier_settings">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/wifi_settings_title" android:key="wifi_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wifi.WifiSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bluetooth_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.bluetooth.BluetoothSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/proxy_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ProxySettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/vpn_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.vpn.VpnSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/network_share_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TetherSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/system_hardware_category" android:key="system">
+        <PreferenceScreen android:title="@string/date_and_time_settings_title" >
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DateTimeSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/language_settings_title" >
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LanguageSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/battery_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.BatterySettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/storage_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Memory" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pc_connection_settings_title" android:key="pc_connection_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.PCConnectionSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/key_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.KeySettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/dock_settings_title" android:key="dock_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DockSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/about_settings" >
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DeviceInfoSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

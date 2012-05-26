@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/all_volume" android:key="all_volume"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:key="current_status">
+        <CheckBoxPreference android:persistent="false" android:title="@string/notification_use_ring_volume_title" android:key="notification_use_ring_volume" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.android.settings.VolPreference android:title="@string/ringtone_volume_title" android:key="ringtone_volume" android:streamType="ring" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+        <com.android.settings.VolPreference android:title="@string/alarm_volume_title" android:key="alarm_volume" android:streamType="alarm" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+        <com.android.settings.VolPreference android:title="@string/voice_volume_title" android:key="voice_volume" android:streamType="voice" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+        <com.android.settings.VolPreference android:title="@string/music_volume_title" android:key="music_volume" android:summary="@string/music_volume_summary" android:streamType="music" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+        <com.android.settings.VolPreference android:title="@string/system_volume_title" android:key="system_volume" android:summary="@string/system_volume_summary" android:streamType="system" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:title="@string/reset_all_volume_title" android:key="reset_all_volume" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/status_bar_toggle_divider_lable" android:background="@drawable/status_bar_toggle_settings_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_toggle_divider_list" android:singleLine="true" style="@miui:style/TextAppearance.ListView.SecondaryItem" />
+</FrameLayout>

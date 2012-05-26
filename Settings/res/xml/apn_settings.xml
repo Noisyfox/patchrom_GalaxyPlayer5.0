@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/apn_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:key="apn_options">
+        <CheckBoxPreference android:persistent="false" android:title="@string/apn_auto_switch_setting_title" android:key="apn_auto_switch" android:summary="@string/apn_auto_switch_setting_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="apn_list" />
+</PreferenceScreen>

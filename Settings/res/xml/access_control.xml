@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <CheckBoxPreference android:persistent="false" android:title="@string/access_control_password_title" android:key="access_control" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/access_control_apps_title" android:key="access_control_items" android:dependency="access_control" />
+    <PreferenceCategory android:title="@string/lock_settings_title">
+        <CheckBoxPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title" android:key="access_control_visible_pattern" android:dependency="access_control" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/lockpattern_settings_enable_tactile_feedback_title" android:key="access_control_vibrant" android:dependency="access_control" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/key_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/back_long_press">
+        <CheckBoxPreference android:title="@string/enable_back_long_press" android:key="enable_back_long_press" android:disableDependentsState="false" />
+        <com.android.settings.SeekBarPreference android:key="back_long_press_timeout" android:dependency="enable_back_long_press" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_key">
+        <CheckBoxPreference android:title="@string/disable_power_key_long_press_under_keyguard" android:key="disable_power_long_press" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/trackball_settings" android:key="trackball_category">
+        <CheckBoxPreference android:title="@string/trackball_wake_title" android:key="trackball_wake" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/media_button">
+        <ListPreference android:title="@string/preferred_media_app_summary" android:key="preferred_media_app" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/camera_key_action_title" android:key="camera_key_action_category">
+        <Preference android:title="@string/camera_key_action_setting_title" android:key="camera_key_action" android:summary="@string/camera_key_action_category_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.CameraKeySettings" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/multi_touch_points_category_title" android:key="multi_touch_points_category">
+        <CheckBoxPreference android:title="@string/multi_touch_points_preference" android:key="enable_multi_touch_points" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_volume_category_title" android:key="pref_volume_category">
+        <CheckBoxPreference android:title="@string/pref_volume_wake_title" android:key="pref_volume_wake" android:summary="@string/pref_volume_wake_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

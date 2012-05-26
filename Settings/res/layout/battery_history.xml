@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/graphLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Spinner android:entries="@array/battery_history_type_spinner" android:id="@id/typeSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Spinner android:entries="@array/battery_history_which_spinner" android:id="@id/whichSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0dip" android:gravity="center_horizontal" android:id="@id/messageText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+                <com.android.settings.battery_history.GraphableButton android:id="@id/button7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/textLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="17.0dip" android:id="@id/detailsText" android:layout_width="fill_parent" android:layout_height="1000.0dip" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@id/tv_wifi_scan_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cit_wifi_ap_scanning" style="?android:attr/textAppearanceMedium" />
+            <Button android:id="@id/btn_retry_scan_wifi_ap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cit_wifi_ap_scan_retry" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

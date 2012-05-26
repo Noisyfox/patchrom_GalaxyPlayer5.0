@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/program_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <PreferenceScreen android:title="@string/install_development_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DevelopmentSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/manage_applications_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ManageApplications" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/application_kept_in_memory_settings" android:key="application_kept_in_memory_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.KeepInMemorySettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="app_settings">
+        <PreferenceScreen android:title="@string/call_settings_title" android:key="call_settings">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/mms_settings_title" android:key="mms_settings">
+            <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.MessagingPreferenceActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/gmail_settings_title" android:key="gmail_settings">
+            <intent android:targetPackage="com.google.android.gm" android:action="android.intent.action.MAIN" android:targetClass="com.google.android.gm.RootPreferenceActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/gtalk_settings_title" android:key="gtalk_settings">
+            <intent android:targetPackage="com.google.android.talk" android:action="android.intent.action.MAIN" android:targetClass="com.google.android.talk.PreferencesActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/browser_settings_title" android:key="browser_settings">
+            <intent android:targetPackage="com.android.browser" android:action="android.intent.action.MAIN" android:targetClass="com.android.browser.ui.BrowserSettingActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/calendar_settings_title" android:key="calendar_settings">
+            <intent android:targetPackage="com.android.calendar" android:action="android.intent.action.MAIN" android:targetClass="com.android.calendar.CalendarPreferenceActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

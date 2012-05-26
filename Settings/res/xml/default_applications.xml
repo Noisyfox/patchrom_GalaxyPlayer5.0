@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/default_application_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <PreferenceScreen android:title="@string/default_browser">
+            <com.android.settings.DefaultApplicationPreference android:key="default_browser">
+                <intent android:action="android.intent.action.VIEW" android:data="http://www.xiaomi.com">
+                    <category android:name="android.intent.category.BROWSABLE" />
+                </intent>
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/default_launcher">
+            <com.android.settings.DefaultApplicationPreference android:key="default_launcher">
+                <intent android:action="android.intent.action.MAIN">
+                    <category android:name="android.intent.category.HOME" />
+                </intent>
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/default_gallery">
+            <com.android.settings.DefaultApplicationPreference android:key="default_gallery">
+                <intent android:mimeType="image/jpeg" android:action="android.intent.action.VIEW" android:data="file:a.jpg" />
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/default_reader">
+            <com.android.settings.DefaultApplicationPreference android:key="default_reader">
+                <intent android:mimeType="text/plain" android:action="android.intent.action.VIEW" android:data="file:hello.txt" />
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/default_dialer">
+            <com.android.settings.DefaultApplicationPreference android:key="default_dialer">
+                <intent android:action="android.intent.action.DIAL" android:data="tel:13812345678" />
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/default_sms">
+            <com.android.settings.DefaultApplicationPreference android:key="default_sms">
+                <intent android:action="android.intent.action.SENDTO" android:data="smsto:13812345678" />
+            </com.android.settings.DefaultApplicationPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

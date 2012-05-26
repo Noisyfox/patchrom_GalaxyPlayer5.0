@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/cit_test_pass" android:title="@string/cit_pass" />
+    <item android:id="@id/cit_test_fail" android:title="@string/cit_fail" />
+    <item android:id="@id/cit_test_hide_menu" android:title="@string/cit_hide_menu" />
+</menu>

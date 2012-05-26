@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/proxy_settings_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/proxy_quick_toggle_title" android:key="enable_proxy" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/proxy_wifi_only_title" android:key="wifi_only" android:dependency="enable_proxy" />
+    <EditTextPreference android:singleLine="true" android:title="@string/apn_http_proxy" android:key="proxy_host" android:dependency="enable_proxy" android:inputType="textUri" />
+    <EditTextPreference android:singleLine="true" android:title="@string/apn_http_port" android:key="proxy_port" android:dependency="enable_proxy" android:inputType="number" />
+</PreferenceScreen>

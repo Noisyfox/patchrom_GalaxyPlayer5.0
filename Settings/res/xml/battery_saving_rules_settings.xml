@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/battery_saving_rules_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/battery_low_level">
+        <RangeBarPreference android:persistent="false" android:entries="@array/battery_low_level_entries" android:title="@string/battery_low_level" android:key="low_level" android:entryValues="@array/battery_low_level_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/battery_auto_saving_category_general" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving" android:key="auto_saving" android:summary="@string/battery_auto_saving_summary" />
+    <CheckBoxPreference android:title="@string/battery_setting_quick_entry" android:key="quick_entry" android:summary="@string/battery_setting_quick_entry_summary" />
+    <PreferenceCategory android:title="@string/battery_auto_saving_category_rule" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_brightness" android:key="battery_auto_saving_rule_brightness" android:summary="@string/battery_auto_saving_rule_brightness_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_background_data" android:key="battery_auto_saving_rule_background_data" android:summary="@string/battery_auto_saving_rule_background_data_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_auto_sync" android:key="battery_auto_saving_rule_auto_sync" android:summary="@string/battery_auto_saving_rule_auto_sync_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_apn" android:key="battery_auto_saving_rule_apn" android:summary="@string/battery_auto_saving_rule_apn_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_wifi" android:key="battery_auto_saving_rule_wifi" android:summary="@string/battery_auto_saving_rule_wifi_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_bluetooth" android:key="battery_auto_saving_rule_bluetooth" android:summary="@string/battery_auto_saving_rule_bluetooth_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_gps" android:key="battery_auto_saving_rule_gps" android:summary="@string/battery_auto_saving_rule_gps_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_vibrate" android:key="battery_auto_saving_rule_vibrate" android:summary="@string/battery_auto_saving_rule_vibrate_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_haptic" android:key="battery_auto_saving_rule_haptic" android:summary="@string/battery_auto_saving_rule_haptic_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_wallpaper" android:key="battery_auto_saving_rule_wallpaper" android:summary="@string/battery_auto_saving_rule_wallpaper_summary" />
+    <CheckBoxPreference android:title="@string/battery_auto_saving_rule_screen_time_out" android:key="battery_auto_saving_rule_screen_time_out" android:summary="@string/battery_auto_saving_rule_screen_time_out_summary" />
+    <PreferenceCategory android:title="@string/battery_auto_saving_category_practise" />
+    <Preference android:title="@string/battery_auto_saving_practise" android:key="battery_auto_saving_practise" android:summary="@string/battery_auto_saving_practise_summary" />
+    <Preference android:title="@string/battery_auto_saving_practise_more" android:key="battery_auto_saving_practise_more" />
+</PreferenceScreen>

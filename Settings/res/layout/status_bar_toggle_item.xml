@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@miui:style/ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:gravity="left" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@miui:style/TextAppearance.ListView.PrimaryItem" />
+    <ImageView android:id="@id/drag_handle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/status_bar_toggle_drag_handle" />
+</LinearLayout>

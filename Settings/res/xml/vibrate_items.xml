@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vibrate_items_title" android:summary="@string/haptic_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/incoming_call_vibrate_title" android:key="incoming_call_vibrate" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/notification_vibrate_title" android:key="notification_vibrate" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/mms_vibrate_title" android:key="mms_vibrate" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sound_settings" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/volume_category" android:key="volume_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/silent_mode_title" android:key="silent" android:summary="@string/silent_mode_summary" />
+        <com.android.settings.VolPreference android:title="@string/ringtone_volume_title" android:key="ringtone_volume" android:streamType="ring" settings:leftIcon="@drawable/ic_min_volume" settings:rightIcon="@drawable/ic_max_volume" />
+        <Preference android:title="@string/all_volume" android:key="all_volume">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AllVolumeSettings" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/vibrate_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/vibrate_in_silent_title" android:key="vibrate_in_silent" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/vibrate_in_normal_title" android:key="vibrate_in_normal" />
+        <Preference android:title="@string/vibrate_items_title" android:key="vibrate_item">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.VibrateItemsSettings" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ringtone_category">
+        <RingtonePreferenceForTheme android:title="@string/incoming_call_ringtone_settings_title" android:key="incoming_call_ringtone" android:ringtoneType="ringtone" android:showDefault="false" />
+        <RingtonePreferenceForTheme android:title="@string/notification_ringtone_settings_title" android:key="notification_ringtone" android:ringtoneType="notification" android:showDefault="false" />
+        <RingtonePreferenceForTheme android:title="@string/sms_received_sound_settings_title" android:key="sms_received_sound" android:ringtoneType="notification" />
+        <RingtonePreferenceForTheme android:title="@string/sms_delivered_sound_settings_title" android:key="sms_delivered_sound" android:ringtoneType="notification" />
+        <CheckBoxPreference android:title="@string/dtmf_tone_enable_title" android:key="dtmf_tone" android:defaultValue="true" android:summaryOn="@string/dtmf_tone_enable_summary_on" android:summaryOff="@string/dtmf_tone_enable_summary_off" />
+        <CheckBoxPreference android:title="@string/sound_effects_enable_title" android:key="sound_effects" android:defaultValue="true" android:summaryOn="@string/sound_effects_enable_summary_on" android:summaryOff="@string/sound_effects_enable_summary_off" />
+        <CheckBoxPreference android:title="@string/lock_sounds_enable_title" android:key="lock_sounds" android:defaultValue="true" android:summaryOn="@string/lock_sounds_enable_summary_on" android:summaryOff="@string/lock_sounds_enable_summary_off" />
+        <CheckBoxPreference android:title="@string/haptic_feedback_enable_title" android:key="haptic_feedback" android:defaultValue="true" android:summaryOn="@string/haptic_feedback_enable_summary_on" android:summaryOff="@string/haptic_feedback_enable_summary_off" />
+        <RangeBarPreference android:persistent="false" android:entries="@array/haptic_feedback_level_entries" android:key="haptic_feedback_level" android:dependency="haptic_feedback" android:entryValues="@array/haptic_feedback_level_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

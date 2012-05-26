@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/camera_key_action_shortcut_home" android:key="0" />
+    <Preference android:persistent="false" android:title="@string/camera_key_action_shortcut_screenshot" android:key="1" />
+    <Preference android:persistent="false" android:title="@string/camera_key_action_shortcut_search" android:key="2" />
+    <Preference android:persistent="false" android:title="@string/camera_key_action_shortcut_call" android:key="3" />
+    <Preference android:persistent="false" android:title="@string/camera_key_action_shortcut_wake" android:key="4" />
+</PreferenceScreen>

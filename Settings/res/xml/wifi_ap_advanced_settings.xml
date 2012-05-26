@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/wifi_forget" android:key="wifi_forget" />
+    <PreferenceCategory android:title="@string/wifi_ip_settings_titlebar" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_use_static_ip" android:key="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_ip_address" android:key="ip_address" android:dependency="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_gateway" android:key="gateway" android:dependency="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_netmask" android:key="netmask" android:dependency="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_dns1" android:key="dns1" android:dependency="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_dns2" android:key="dns2" android:dependency="use_static_ip" />
+    <PreferenceCategory android:title="@string/proxy_settings_label" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/proxy_enable_ap_setting" android:key="proxy_not_use_globle_setting" />
+    <EditTextPreference android:singleLine="true" android:title="@string/apn_http_proxy" android:key="proxy_host" android:dependency="proxy_not_use_globle_setting" android:inputType="textUri" />
+    <EditTextPreference android:singleLine="true" android:title="@string/apn_http_port" android:key="proxy_port" android:dependency="proxy_not_use_globle_setting" android:inputType="number" />
+    <Preference android:persistent="false" android:title="@string/wifi_clear_proxy" android:key="clear_proxy" />
+</PreferenceScreen>

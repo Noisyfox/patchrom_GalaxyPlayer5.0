@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/type_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/haptic_plus_minus_desc" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="30.0px" android:textStyle="bold" android:id="@id/add_button" android:layout_width="60.0px" android:layout_height="wrap_content" android:text="@string/haptic_button_plus" android:layout_alignParentLeft="true" />
+                <Button android:textSize="30.0px" android:textStyle="bold" android:id="@id/sub_button" android:layout_width="60.0px" android:layout_height="wrap_content" android:text="@string/haptic_button_minus" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <TableLayout android:id="@id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/haptic_button_save" android:layout_alignParentLeft="true" />
+                <view android:id="@id/test_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="125.0px" android:text="@string/haptic_button_test" android:layout_centerHorizontal="true" class="com.android.settings.HapticAdjust$TestButton" />
+                <Button android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/haptic_button_cancel" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/revert_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/haptic_button_revert" android:layout_alignParentLeft="true" />
+                <Button android:id="@id/default_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/haptic_button_default" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

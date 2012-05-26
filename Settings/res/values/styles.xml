@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="info_label">
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_value">
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_small">
+        <item name="android:textAppearance">@style/TextAppearance.info_small</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="entry_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="form_value">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.info_label" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@miui:color/preference_primary_text</item>
+    </style>
+    <style name="TextAppearance.info_small" parent="@style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@miui:color/preference_primary_text</item>
+    </style>
+    <style name="TextAppearance.info_value" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@miui:color/preference_primary_text</item>
+    </style>
+    <style name="TextAppearance.RightRadioButton" parent="@style/TextAppearance">
+        <item name="android:textColor">@miui:color/preference_primary_text</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingRight">60.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="InformationItemTitleStyle" parent="@miui:style/TextAppearance.Preference.PrimaryItem">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="InformationItemTabStyle">
+        <item name="android:paddingTop">3.0dip</item>
+    </style>
+    <style name="InformationTextStyle" parent="@miui:style/TextAppearance.Preference.PrimaryItem">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

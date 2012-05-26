@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/light_filter_title">
+        <CheckBoxPreference android:persistent="false" android:title="@string/light_filter_enabled_title" android:key="light_filter_enabled" android:summary="@string/light_filter_enabled_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_light_filter_window" android:title="@string/light_filter_window_title" android:key="light_filter_window" android:summary="@string/light_filter_window_summary" android:dependency="light_filter_enabled" android:dialogTitle="@string/light_filter_window_title" android:entryValues="@array/values_light_filter_window" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_light_filter_reset" android:title="@string/light_filter_reset_title" android:key="light_filter_reset" android:summary="@string/light_filter_reset_summary" android:dependency="light_filter_enabled" android:dialogTitle="@string/light_filter_reset_title" android:entryValues="@array/values_light_filter_reset" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_light_filter_interval" android:title="@string/light_filter_interval_title" android:key="light_filter_interval" android:summary="@string/light_filter_interval_summary" android:dependency="light_filter_enabled" android:dialogTitle="@string/light_filter_interval_title" android:entryValues="@array/values_light_filter_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/light_levels_title">
+        <CheckBoxPreference android:persistent="false" android:title="@string/light_levels_enabled_title" android:key="light_levels_enabled" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_light_levels_dim" android:title="@string/light_levels_dim_title" android:key="light_levels_dim" android:summary="@string/light_levels_dim_summary" android:dependency="light_levels_enabled" android:dialogTitle="@string/light_levels_dim_title" android:entryValues="@array/values_light_levels_dim" />
+        <PreferenceScreen android:title="@string/light_levels_editor_title" android:key="light_levels_editor" android:dependency="light_levels_enabled">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LightLevelsActivity" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="false" android:title="@string/light_decrease_enabled_title" android:key="light_decrease_enabled" android:summary="@string/light_decrease_enabled_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_light_decrease_hysteresis" android:title="@string/light_decrease_hysteresis_title" android:key="light_decrease_hysteresis" android:summary="@string/light_decrease_hysteresis_summary" android:dependency="light_decrease_enabled" android:dialogTitle="@string/light_decrease_hysteresis_title" android:entryValues="@array/values_light_decrease_hysteresis" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,188 @@
+.class public Lcom/android/settings/fuelgauge/PowerGaugePreference;
+.super Landroid/preference/Preference;
+.source "PowerGaugePreference.java"
+
+
+# instance fields
+.field private mGauge:Lcom/android/settings/fuelgauge/PercentageBar;
+
+.field private mIcon:Landroid/graphics/drawable/Drawable;
+
+.field private mInfo:Lcom/android/settings/fuelgauge/BatterySipper;
+
+.field private mPercent:D
+
+.field private mValue:D
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Landroid/graphics/drawable/Drawable;Lcom/android/settings/fuelgauge/BatterySipper;)V
+    .locals 3
+    .parameter "context"
+    .parameter "icon"
+    .parameter "info"
+
+    .prologue
+    invoke-direct {p0, p1}, Landroid/preference/Preference;-><init>(Landroid/content/Context;)V
+
+    const v0, 0x7f030048
+
+    invoke-virtual {p0, v0}, Lcom/android/settings/fuelgauge/PowerGaugePreference;->setLayoutResource(I)V
+
+    iput-object p2, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mIcon:Landroid/graphics/drawable/Drawable;
+
+    new-instance v0, Lcom/android/settings/fuelgauge/PercentageBar;
+
+    invoke-direct {v0}, Lcom/android/settings/fuelgauge/PercentageBar;-><init>()V
+
+    iput-object v0, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mGauge:Lcom/android/settings/fuelgauge/PercentageBar;
+
+    iget-object v0, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mGauge:Lcom/android/settings/fuelgauge/PercentageBar;
+
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const/high16 v2, 0x7f02
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v1
+
+    iput-object v1, v0, Lcom/android/settings/fuelgauge/PercentageBar;->bar:Landroid/graphics/drawable/Drawable;
+
+    iput-object p3, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mInfo:Lcom/android/settings/fuelgauge/BatterySipper;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method getInfo()Lcom/android/settings/fuelgauge/BatterySipper;
+    .locals 1
+
+    .prologue
+    iget-object v0, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mInfo:Lcom/android/settings/fuelgauge/BatterySipper;
+
+    return-object v0
+.end method
+
+.method protected onBindView(Landroid/view/View;)V
+    .locals 6
+    .parameter "view"
+
+    .prologue
+    invoke-super {p0, p1}, Landroid/preference/Preference;->onBindView(Landroid/view/View;)V
+
+    const v3, 0x7f0c00ef
+
+    invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/ImageView;
+
+    .local v1, appIcon:Landroid/widget/ImageView;
+    iget-object v3, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mIcon:Landroid/graphics/drawable/Drawable;
+
+    if-nez v3, :cond_0
+
+    invoke-virtual {p0}, Lcom/android/settings/fuelgauge/PowerGaugePreference;->getContext()Landroid/content/Context;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v3
+
+    const v4, 0x1080093
+
+    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v3
+
+    iput-object v3, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mIcon:Landroid/graphics/drawable/Drawable;
+
+    :cond_0
+    iget-object v3, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mIcon:Landroid/graphics/drawable/Drawable;
+
+    invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    const v3, 0x7f0c00f1
+
+    invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    .local v0, appGauge:Landroid/widget/ImageView;
+    iget-object v3, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mGauge:Lcom/android/settings/fuelgauge/PercentageBar;
+
+    invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    const v3, 0x7f0c00f0
+
+    invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/widget/TextView;
+
+    .local v2, percentView:Landroid/widget/TextView;
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-wide v4, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mPercent:D
+
+    invoke-static {v4, v5}, Ljava/lang/Math;->ceil(D)D
+
+    move-result-wide v4
+
+    double-to-int v4, v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, "%"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method
+
+.method setGaugeValue(D)V
+    .locals 3
+    .parameter "percent"
+
+    .prologue
+    iput-wide p1, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mValue:D
+
+    iget-object v0, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mGauge:Lcom/android/settings/fuelgauge/PercentageBar;
+
+    iget-wide v1, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mValue:D
+
+    iput-wide v1, v0, Lcom/android/settings/fuelgauge/PercentageBar;->percent:D
+
+    return-void
+.end method
+
+.method setPercent(D)V
+    .locals 0
+    .parameter "percent"
+
+    .prologue
+    iput-wide p1, p0, Lcom/android/settings/fuelgauge/PowerGaugePreference;->mPercent:D
+
+    return-void
+.end method

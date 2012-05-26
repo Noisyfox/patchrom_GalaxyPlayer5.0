@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:divider="@null" android:layout_weight="1.0"/>
+    <LinearLayout android:id="@id/bottom_panel" style="@miui:style/BottomButtonBar">
+        <Button android:id="@id/operation_button" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/system_update_settings_list_item_title" style="@miui:style/BottomButton.Middle" />
+    </LinearLayout>
+</LinearLayout>

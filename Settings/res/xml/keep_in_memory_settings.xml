@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_kept_in_memory_settings" android:key="applications_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/mms_kept_in_memory" android:key="mms_kept_in_memory" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/launcher_kept_in_memory" android:key="launcher_kept_in_memory" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/contacts_kept_in_memory" android:key="contacts_kept_in_memory" />
+    <PreferenceCategory>
+        <PreferenceScreen android:title="@string/user_app_kept_in_memory" android:key="user_app_kept_in_memory" android:summary="@string/user_app_kept_in_memory_summary">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ApplicationPicker" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
